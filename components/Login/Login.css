@@ -1,0 +1,104 @@
+/* login.css */
+
+.navbar1{
+    z-index: 99;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff7f3;
+}
+
+.logo {
+    margin-left: 15px;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background: url('../images/login.jpg'); /* Pink to purple gradient */  }
+  
+  .login-form {
+    width: 275px;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* background-color: transparent; */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+  }
+
+  .form-group h2{
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px; /* Slightly more spacing between label and input */
+    font-weight: bold;
+    color: #181818; 
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 90%;
+    padding: 12px; /* Slightly increased padding for more comfort */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Slightly rounded corners */
+    background-color: #f5f5f5; /* Lighter gray background */
+    transition: border-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+
+  input[type="password"],
+  input[type="text"] {
+    margin-bottom: 2px;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007bff;
+  }
+
+  /* Add this to your Login.css */  
+  
+.password-input {
+    width: 90%; /* Set the width to match the email input field */
+  }
+  
+  .toggle-password-button {
+    border: none;
+    background: none;
+    font-size: 10px;
+    color: #007bff;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .toggle-password-button:focus {
+    outline: none;
+  }
+  
+  
+  .submit-button {
+    padding: 12px; /* Slightly increased padding for the button */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
